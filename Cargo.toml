@@ -1,0 +1,7 @@
+[package]
+name = "wordcount"
+version = "0.1.0"
+authors = ["masaaki.horikoshi <masaaki.horikoshi@accenture.com>"]
+
+[dependencies]
+regex = "0.2"
