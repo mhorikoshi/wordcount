@@ -85,6 +85,18 @@ fn word_count_works2() {
   assert_eq!(word_count("aa  cc dd".to_string(), freqs), exp);
 }
 
+
+/*
+extern crate test;
+use test::Bencher;
+
+#[bench]
+fn bench_word_count(b: &mut Bencher) {
+    let freqs: HashMap<String, i8> = HashMap::new();
+    b.iter(|| word_count("aa bb cc dd".to_string(), freqs));
+}
+*/
+
 /*
 #[cfg(test)]
 mod test {
