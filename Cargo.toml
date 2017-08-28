@@ -1,7 +1,13 @@
 [package]
 name = "wordcount"
 version = "0.1.0"
-authors = ["masaaki.horikoshi <masaaki.horikoshi@accenture.com>"]
+authors = ["sinhrks <sinhrks@gmail.com>"]
+
+description = "..."
+repository = "https://github.com/mhorikoshi/wordcount"
+
+[badges]
+travis-ci = { repository = "mhorikoshi/wordcount", branch = "master" }
 
 [dependencies]
 regex = "0.2"
