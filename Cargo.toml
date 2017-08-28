@@ -3,6 +3,8 @@ name = "wordcount"
 version = "0.1.0"
 authors = ["sinhrks <sinhrks@gmail.com>"]
 
+license = "MIT/Apache-2.0"
+
 description = "..."
 repository = "https://github.com/mhorikoshi/wordcount"
 
